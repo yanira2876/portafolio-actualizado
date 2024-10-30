@@ -1,0 +1,110 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex-container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(imagenes/playa.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.user-card {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.card-header {
+    height: 125px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgba(20, 124, 156, 0.479);
+    color: rgba(255, 255, 255, 0.795);
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card-body h1, 
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 20px 0px;
+}
+
+.avatar-m {
+    border-radius: 40%;
+    background-color: #a272e2;
+    height: 190px;
+    padding: 5px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.puntos{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sub{
+    display:flex;
+    justify-content: center;
+    background-color: rgba(165, 74, 160, 0.589);
+    border-color: aqua;
+    border-radius: 500px;
+    border: 109px;
+    font-family:'Courier New', Courier, monospace;
+}
+.col-1,
+.col-2,
+.col-3 {
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    color: rgba(250, 235, 215, 0.801);
+    background-color: rgba(0, 0, 0, 0.61);
+    
+}
+.col-2{
+    flex: 2;
+}
+.col-3 {
+    flex: 3;
+}
+.row{
+    display: flex;
+}
+.ima{
+    height: 170px;
+    width: 140px ;
+}
+.imag{
+    height: 150px;
+    width: 130px;
+}
+.yani{
+    background-color: rgba(99, 150, 197, 0.767);
+    color: #1b191d;
+}
+.link{
+    color: rgb(255, 255, 255);
+}
+.lupi{
+    height:250px;
+    width: 500px;
+}
